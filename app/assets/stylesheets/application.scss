@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: none;
+    padding-bottom:100px;
+}
+body {
+	pading-top:200px;
+    background-image: url(/83.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 700px;
+}
